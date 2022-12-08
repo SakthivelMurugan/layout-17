@@ -1,0 +1,186 @@
+.one
+{
+	display:flex;
+	flex-direction:column;
+	margin:10px;
+	border:2px solid black;
+}
+.one .header
+{
+	display:flex;
+	flex-direction:row;
+	background-color:gray;
+	justify-content:space-between;
+}
+.one .header .start
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:start;
+	margin:5px;
+}
+.one .header .start .b
+{
+	height:20px;
+	width:40px;
+	margin:5px;
+	display:flex;	
+	align-items:center;
+	justify-content:center;
+}
+.one .header .middle
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:end;
+	margin:5px;
+}
+.one .header .middle .b
+{
+	height:20px;
+	width:40px;
+	margin:5px;
+	display:flex;	
+	align-items:center;
+	justify-content:center;
+}
+.one .header .end
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:end;
+	margin:5px;
+}
+.one .header .end .b
+{
+	height:20px;
+	width:40px;
+	margin:5px;
+	display:flex;	
+	align-items:center;
+	justify-content:center;
+}
+.one .split1
+{
+	display:flex;
+	justify-content:center;
+}
+.one .split1 .b
+{
+	height:100px;
+	width:1500px;
+	margin:10px;
+	display:flex;	
+	align-items:center;
+	justify-content:center;
+}
+.one .split2
+{
+	display:flex;
+	justify-content:center;
+}
+.one .split2 .b
+{
+	height:100px;
+	width:740px;
+	margin:10px;
+	display:flex;	
+	align-items:center;
+	justify-content:center;
+}
+.one .split3
+{
+	display:flex;
+	justify-content:center;
+	flex-direction:row-reverse;
+}
+.one .split3 .b
+{
+	height:100px;
+	width:370px;
+	margin:10px;
+	display:flex;	
+	align-items:center;
+	justify-content:center;
+}
+.one .split4
+{
+	display:flex;
+	justify-content:center;
+}
+.one .split4 .b
+{
+	height:100px;
+	width:740px;
+	margin:10px;
+	display:flex;	
+	align-items:center;
+	justify-content:center;
+}
+.one .split5
+{
+	display:flex;
+	justify-content:center;
+	margin:10px;
+}
+.one .split5 .split51
+{
+	display:flex;
+	flex-direction:row-reverse;
+	align-items:center;
+	justify-content:space-evenly;
+	border:2px solid black;
+	height:100px;
+	width:1500px;
+	margin:0px auto;
+	margin-top:10px;
+	margin-bottom:10px
+}
+.one .split5 .split51 .b
+{
+	height:50px;
+	width:80px;	
+	margin:20px;
+	display:flex;	
+	align-items:center;
+	justify-content:center;
+}
+.one .footer
+{
+	display:flex;
+	background-color:gray;
+	justify-content:center;
+}
+.one .footer .b 
+{
+	height:20px;
+	width:70px;
+	margin:10px;
+	display:flex;	
+	align-items:center;
+	justify-content:center;
+}
+.red
+{
+	background-color:red;
+}
+.blue
+{
+	background-color:blue;
+}
+.green
+{
+	background-color:green;
+}
+.yellow
+{
+	background-color:yellow;
+}
+.brown
+{
+	background-color:brown;
+}
+.pink
+{
+	background-color:pink;
+}
